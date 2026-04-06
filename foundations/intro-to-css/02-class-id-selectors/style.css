@@ -1,1 +1,18 @@
-/* Add CSS Styling */
+.one, 
+.three ,
+.five{
+    background-color: rgb(247, 144, 235) ;
+}
+
+.mass{
+    font-size : 24px;
+}
+#two{
+    font-size: 36px;
+    color : rgb(128, 128, 224);
+}
+#four{
+    font-size : 24px;
+    background-color : lightgreen;
+    font-weight : bold;
+}
