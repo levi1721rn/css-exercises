@@ -1,4 +1,5 @@
 .header  {
+  display : flex;
   font-family: monospace;
   background: papayawhip;
 }
@@ -8,13 +9,18 @@
   font-weight: 900;
   color: tomato;
   background: white;
-  padding: 4px 32px;
+  justify-content: center;
+  align-items: center;
+  padding : 10px;
+  margin : 10px;
 }
-
 ul {
+  display: flex;
   /* this removes the dots on the list items*/
   list-style-type: none;
-}
+  margin : 10px;
+  padding : 10px;
+  }
 
 a {
   font-size: 22px;
@@ -22,4 +28,21 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+
 }
+.right-links ,
+.left-links{
+  flex : 1;
+  align-content: center;
+}
+.ll {
+  justify-content: flex-start;
+}
+.rl{
+  justify-content: flex-end;
+}
+.one , .two , .three , .four , .five , .six{
+  margin : 10px;
+  padding : 5px;
+}
+
